@@ -2,6 +2,9 @@
 package _01_else_if._1_robot_color_chooser;
 
 import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+
 import java.awt.Color;
 
 public class RobotColorChooser {
@@ -14,11 +17,58 @@ public class RobotColorChooser {
 		//5. Use an if/else statement to set the pen color that the user requested
         //6. If the user doesn't enter anything, choose a random color
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
+	
 		
-
+Robot rob = new Robot();	
+String color = JOptionPane.showInputDialog(null,"What color do you want the robot to draw?");		
+if (color.equals("red")) {
+	rob.setPenColor(Color.red);
+	
+}
+else if (color.equals("blue")) {
+		rob.setPenColor(Color.blue);
 		
+		
+}
+else if (color.equals("green")) {
+	rob.setPenColor(Color.green);
+}
 
-
-
+	
+	
+	
+	
+	
+	
+	
+rob.penDown();
+rob.setSpeed(50);
+rob.move(100);
+rob.turn(90);
+rob.move(150);
+rob.turn(90);
+rob.move(150);
+rob.turn(-90);
+rob.move(100);
+rob.turn(90);
+rob.move(100);
+rob.turn(90);
+rob.move(300);
+rob.move(60);
+rob.move(60);
+rob.move(10);
+rob.turn(60);
+rob.turn(60);
+rob.move(100);
+rob.setSpeed(10000);
+rob.turn(360);
+rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);
+rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360); rob.move(80);rob.move(60);rob.turn(120);
+rob.move(30);	rob.move(30);
+	
+	
+	
+	
+	
 	}
 }
