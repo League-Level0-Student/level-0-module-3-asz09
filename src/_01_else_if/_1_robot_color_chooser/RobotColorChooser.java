@@ -23,21 +23,28 @@ Robot rob = new Robot();
 String color = JOptionPane.showInputDialog(null,"What color do you want the robot to draw?");		
 if (color.equals("red")) {
 	rob.setPenColor(Color.red);
-	
 }
 else if (color.equals("blue")) {
 		rob.setPenColor(Color.blue);
-		
-		
 }
 else if (color.equals("green")) {
 	rob.setPenColor(Color.green);
 }
-
-	
-	
-	
-	
+else if (color.equals("yellow")) {
+	rob.setPenColor(Color.yellow);
+}
+else if (color.equals("orange")) {
+	rob.setPenColor(Color.orange);
+}
+else if (color.equals("pink")) {
+	rob.setPenColor(Color.pink);
+}
+else if (color.equals("grey")) {
+	rob.setPenColor(Color.darkGray);
+}
+else if (color.equals("magenta")) {
+	rob.setPenColor(Color.MAGENTA);
+}
 	
 	
 	
@@ -64,7 +71,7 @@ rob.setSpeed(10000);
 rob.turn(360);
 rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);
 rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360);rob.turn(360); rob.move(80);rob.move(60);rob.turn(120);
-rob.move(30);	rob.move(30);
+rob.move(30);	rob.move(30); rob.turn(80); rob.turn(180); rob.move(40); rob.turn(30); rob.move(70);;;
 	
 	
 	
