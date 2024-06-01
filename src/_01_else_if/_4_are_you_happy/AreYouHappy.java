@@ -18,7 +18,7 @@ public class AreYouHappy {
 			JOptionPane.showMessageDialog(null, "Change Something");		
 		}
 		else {
-			JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
+			JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing.");
 		}
 	}
 		
