@@ -1,26 +1,37 @@
 package _01_else_if._5_own_adventure;
 
-public class OwnAdventure {	
-	
+import javax.swing.JOptionPane;
+
+public class OwnAdventure{
+
+
+
+
 	public static void main(String[] args) {
-		//JOptionPane.showMessageDialog(null,"Here is my story, please write inputs to move along.");
-		
 
-if (input = "okay");
+		String story = JOptionPane.showInputDialog(null, "There was a boy called Dominic, he built a little cabin in the woods.");
 
-JOptionPane.showMessageDialog(null,"There once was a boy called Dominic, who lived in the woods, he built a small cabin, in which he lives.");
+		if(story.equals("okay")){
+JOptionPane.showInputDialog(null,"Dominic is currently 13 years old, and he has lived in the cabin since he was 3. Every year, the cabin gets bigger.");
+JOptionPane.showMessageDialog(null,"Would you like to keep reading? Click OK to continue.");
 
-if (input = "okay");
+	JOptionPane.showInputDialog("In Maine, the weather was to become very poor in that summer. His house, built only of wood is no match.");
+	JOptionPane.showInputDialog("Dominic found more wood, he covered the inside roof to prevent water. He continued to use more planks to build a door.");
 
-}
-	}
+ 	JOptionPane.showMessageDialog(null,"Here, you can take a break. Press OK whenever you're ready. "); //BREAK
 	
-JOptionPane.showMessageDialog(null,"Here is my story, please write inputs to move along.");
-		
-
-if (input = "okay");
-
-JOptionPane.showMessageDialog(null,"There once was a boy called Dominic, who lived in the woods, he built a small cabin, in which he lives.");
-if (input = "okay");
+JOptionPane.showInputDialog("Dominic's upgrades proved to be a success. He got a bucket of water from a lake and dumped it on his roof. Nothing came through.");
+JOptionPane.showInputDialog("Dominic then got some hard plants to throw at his door. The door stayed firmly in place.");
 
 }
+
+		}
+
+	
+}	
+		
+
+
+
+
+
