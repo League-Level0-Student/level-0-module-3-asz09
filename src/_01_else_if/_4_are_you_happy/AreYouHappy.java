@@ -6,22 +6,23 @@ import javax.swing.*;
 public class AreYouHappy {
 
 	public static void main(String[] args) {
-	String feelings = JOptionPane.showInputDialog(null,"are you happy");
-	if(feelings == "yes") {
-		JOptionPane.showMessageDialog(null,"Keep doing whatever you're doing.");
-	}
-	
-	
-	else {
-		String morefeelings = JOptionPane.showInputDialog(null,"Do you want to be happy?");
-		if(morefeelings == "yes") {
-			JOptionPane.showMessageDialog(null, "Change Something");		
+		String feelings = JOptionPane.showInputDialog("are you happy");
+		if(feelings.equals("yes")) {
+			JOptionPane.showMessageDialog(null,"Keep doing whatever you're doing.");
 		}
+
+
 		else {
-			JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing.");
+			String morefeelings = JOptionPane.showInputDialog("Do you want to be happy?");
+			if(morefeelings.equals("yes")) {
+
+				JOptionPane.showMessageDialog(null, "Change Something");		
+			}
+			else {
+				JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing.");
+			}
 		}
-	}
-		
+
 	}
 
 }
