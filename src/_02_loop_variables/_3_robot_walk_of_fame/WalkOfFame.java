@@ -132,7 +132,7 @@ rob.turn(144);
      rob.move(30);
      rob.turn(144);
      rob.setRandomPenColor();
-     rob.move(50);
+     rob.move(30);
     
 		// 3. Set the length of each line in the star to 30.
 
