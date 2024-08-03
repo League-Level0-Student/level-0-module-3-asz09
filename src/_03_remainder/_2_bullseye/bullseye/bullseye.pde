@@ -17,7 +17,7 @@ void draw() {
     ellipse(500,500,size,size);
     }
     else{
-    fill(#FFFFFF);
+    fill(#000000);
     ellipse(500,500,size,size);
     }
    size -= 200;
