@@ -22,13 +22,20 @@ public class BananaQuiz
 		if(banana.equals("no")) {
 			JOptionPane.showMessageDialog(null, "You are crazy");
 		}
-				//if(feelings.equals("yes")) {
-			
-		}
+				String feelings = JOptionPane.showInputDialog("Why don't you like bananas?");
+				if(feelings.equals("yes")) {
+					JOptionPane.showInputDialog("What is your favorite hobby?");
+					
+						JOptionPane.showMessageDialog(null,"answer is better with bananas");
+						
+					}
+					
+					
+				}
+		
+			}
+		
 	
 	}
 
 			
-	
-
-
