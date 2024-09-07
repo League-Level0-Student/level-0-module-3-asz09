@@ -26,7 +26,7 @@ public class BananaQuiz
 				if(feelings.equals("yes")) {
 					JOptionPane.showInputDialog("What is your favorite hobby?");
 					
-						JOptionPane.showMessageDialog(null,"answer is better with bananas");
+					
 						
 					}
 					
@@ -36,6 +36,6 @@ public class BananaQuiz
 			}
 		
 	
-	}
+	
 
 			
