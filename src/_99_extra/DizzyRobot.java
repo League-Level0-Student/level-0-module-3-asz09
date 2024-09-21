@@ -19,7 +19,7 @@ dance(rotate);
 	/*****************   Use this method, DON'T CHANGE THE CODE BELOW  **************/
 	
 	static void dance(int numberOfSpins) {
-		robot.setSpeed(100);
+		robot.setSpeed(80);
 		for (int i = 0; i < numberOfSpins; i++) {
 			robot.turn(360);
 		}
