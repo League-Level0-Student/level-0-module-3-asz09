@@ -9,7 +9,7 @@ public class WalkOfFame {
 		
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
-rob.penDown();
+rob.penDown(); ///eeeeeeee
 rob.setRandomPenColor();
 rob(90,30,30);
 rob.setSpeed(50);
