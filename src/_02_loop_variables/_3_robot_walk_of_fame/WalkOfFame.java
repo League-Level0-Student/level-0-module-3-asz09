@@ -9,131 +9,23 @@ public class WalkOfFame {
 		
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
-rob.penDown(); ///eeeeeeee
-rob.setRandomPenColor();
-rob(90,30,30);
-rob.setSpeed(50);
+		rob.setX(100);
+		rob.penDown();
+		rob.setSpeed(60);
+		rob.show();
+		
 		// 2. Make the robot draw a star shape. Hint: angle=144.
-rob.move(50);
-rob.turn(144);
-rob.move(30);
-rob.turn(144);
-rob.setRandomPenColor();
-rob.move(30);
-rob.turn(144);
-rob.move(30);
-rob.turn(144);
-rob.setRandomPenColor();
-rob.move(30);
-rob.turn(144);
- rob.move(30);
- rob.turn(144);
- rob.move(50);
- rob.setRandomPenColor();
- rob.turn(144);
- rob.move(30);
- rob.turn(144);
- rob.move(30);
- rob.turn(144);
- rob.setRandomPenColor();
- rob.move(30);
- rob.turn(144);
- rob.move(50);
- rob.setRandomPenColor();
- rob.move(50);
- rob.turn(144);
- rob.move(30);
- rob.turn(144);
- rob.move(30);
- rob.turn(144);
- rob.setRandomPenColor();
- rob.move(30);
- rob.turn(144);
- rob.move(30);
- rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-  rob.setRandomPenColor();
-  rob.move(50);
-  rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-  rob.setRandomPenColor();
-  rob.move(30);
-  rob.turn(144);
-  rob.move(50);rob.move(50);
-  rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-  rob.setRandomPenColor();
-  rob.move(30);
-  rob.turn(144);
-  rob.move(30);
-  rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(50);
-   rob.setRandomPenColor();
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(50);rob.move(50);
-   rob.turn(144);
-   rob.move(30);
-   rob.setRandomPenColor();
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-   rob.move(30);
-   rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-    rob.setRandomPenColor();
-    rob.move(50);
-    rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-    rob.move(30);
-    rob.setRandomPenColor();
-    rob.turn(144);
-    rob.move(50);
-    rob.move(50);
-    rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-    rob.setRandomPenColor();
-    rob.move(30);
-    rob.turn(144);
-    rob.move(30);
-    rob.turn(144);
-     rob.move(30);
-     rob.turn(144);
-     rob.move(50);
-     rob.setRandomPenColor();
-     rob.turn(144);
-     rob.move(30);
-     rob.turn(144);
-     rob.move(30);
-     rob.turn(144);
-     rob.move(30);
-     rob.turn(144);
-     rob.setRandomPenColor();
-     rob.move(30);
-    
+		for(int e=0; e<10; e++) {
+		
+			for(int i=0; i<5; i++) {
+				rob.move(100);
+				rob.turn(144);
+			
+			}
+	
+			rob.move(-110);
+		}
+
 		// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
@@ -143,11 +35,9 @@ rob.turn(144);
 		 * Hint: The distance between stars is 50.
 		 */
 
+	
 	}
-
-	private static void rob(int i, int j, int k) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
+	
+
+
